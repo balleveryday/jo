@@ -54,11 +54,7 @@
       </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "db_structure/db_utilities.py"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "db_structure/jo.py"
+            argument = "run_db.py"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
