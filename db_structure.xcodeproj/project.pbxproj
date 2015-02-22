@@ -6,11 +6,42 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		B37656FE1A9A18A800D7154A /* jo.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jo.py; sourceTree = "<group>"; };
+		B37657031A9A190200D7154A /* db_utilities.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = db_utilities.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		B37656F31A9A16E000D7154A = {
 			isa = PBXGroup;
 			children = (
+				B37657021A9A18DB00D7154A /* doc */,
+				B37657011A9A18CC00D7154A /* test */,
+				B37656FF1A9A18B300D7154A /* db_structure */,
 			);
+			sourceTree = "<group>";
+		};
+		B37656FF1A9A18B300D7154A /* db_structure */ = {
+			isa = PBXGroup;
+			children = (
+				B37656FE1A9A18A800D7154A /* jo.py */,
+				B37657031A9A190200D7154A /* db_utilities.py */,
+			);
+			path = db_structure;
+			sourceTree = "<group>";
+		};
+		B37657011A9A18CC00D7154A /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		B37657021A9A18DB00D7154A /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = doc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
