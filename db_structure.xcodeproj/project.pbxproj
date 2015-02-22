@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B37656FE1A9A18A800D7154A /* jo.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jo.py; sourceTree = "<group>"; };
-		B37657031A9A190200D7154A /* db_utilities.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = db_utilities.py; sourceTree = "<group>"; };
+		B37657071A9A1FFD00D7154A /* jo.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jo.py; sourceTree = "<group>"; };
+		B37657081A9A209100D7154A /* db_utilities.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = db_utilities.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -24,8 +24,8 @@
 		B37656FF1A9A18B300D7154A /* db_structure */ = {
 			isa = PBXGroup;
 			children = (
-				B37656FE1A9A18A800D7154A /* jo.py */,
-				B37657031A9A190200D7154A /* db_utilities.py */,
+				B37657071A9A1FFD00D7154A /* jo.py */,
+				B37657081A9A209100D7154A /* db_utilities.py */,
 			);
 			path = db_structure;
 			sourceTree = "<group>";
