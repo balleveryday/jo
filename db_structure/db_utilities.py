@@ -4,8 +4,8 @@ import sqlite3
 class ConnectToDatabase(object):
     """ Connect to our store database.
         
-        We work with one database and therein we have all our tables with our stock :)
-        """
+    We work with one database and therein we have all our tables with our stock :)
+    """
     
     def __init__(self, database):
         self.database = database
@@ -27,9 +27,9 @@ class ConnectToDatabase(object):
 class ConnectToCardsTable(ConnectToDatabase):
     """ Class to handle operations in the table that holds cards.
         
-        We hardcode the table's name and we henceforth call it cards. Because of this
-        the class instance is created without a "cards" variable.
-        """
+    We hardcode the table's name and we henceforth call it cards. Because of this
+    the class instance is created without a "cards" variable.
+    """
     
     def __init__(self, database):
         super(ConnectToCardsTable, self).__init__(database)
@@ -51,5 +51,5 @@ class ConnectToCardsTable(ConnectToDatabase):
 
 def insert_row(self):
     """Python's security precautions to hardcode the table name here. (We call it cards)"""
-        self.c.execute("INSERT INTO cards VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
-        return
+    self.c.execute("INSERT INTO cards VALUES ('2006-01-05','BUY','RHAT',100,35.14)")
+    return

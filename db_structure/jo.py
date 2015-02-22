@@ -1,5 +1,5 @@
 import sys
-import db_utilities
+#import db_utilities
 
 def hello_world():
     print("Hello world!")
